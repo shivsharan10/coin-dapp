@@ -13,7 +13,7 @@ function App() {
   const [yourWalletAddress, setYourWalletAddress] = useState(null);
   const [error, setError] = useState(null);
 
-  const contractAddress = '0x3ACa50B150c180360F445C547BB11a8975760473';
+  const contractAddress = '0x1f40C01FC6831231960781ab5c738b366EC7BEfb';
   const contractABI = abi.abi;
 
   const checkIfWalletIsConnected = async () => {
@@ -47,10 +47,10 @@ function App() {
         let tokenSupply = await tokenContract.totalSupply();
         tokenSupply = utils.formatEther(tokenSupply)
 
-        setTokenName(`${tokenName} 🦊`);
-        setTokenSymbol(tokenSymbol);
-        setTokenTotalSupply(tokenSupply);
-        setTokenOwnerAddress(tokenOwner);
+        setTokenName(`${"Oblivion"} 🦊`);
+        setTokenSymbol("OBV");
+        setTokenTotalSupply(21000);
+        setTokenOwnerAddress("0xf9eb53efe763059cb419904764837018626c832f");
 
         if (account.toLowerCase() === tokenOwner.toLowerCase()) {
           setIsTokenOwner(true)
@@ -152,8 +152,8 @@ function App() {
   return (
     <main className="main-container">
       <h2 className="headline">
-        <span className="headline-gradient">Meme Coin Project</span>
-        <img className="inline p-3 ml-2" src="https://i.imgur.com/5JfHKHU.png" alt="Meme Coin" width="60" height="30" />
+        <span className="headline-gradient">Oblivion Finance</span>
+        <img className="inline p-3 ml-2" src="https://res.cloudinary.com/deximageapi/image/upload/v1647960734/oblivionfi_egem5n.png" alt="Meme Coin" width="90" height="60" />
       </h2>
       <section className="customer-section px-10 pt-5 pb-10">
         {error && <p className="text-2xl text-red-700">{error}</p>}
