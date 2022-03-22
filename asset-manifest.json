@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/coin-dapp/static/css/main.04e29190.css",
+    "main.js": "/coin-dapp/static/js/main.4b9cb58e.js",
+    "index.html": "/coin-dapp/index.html",
+    "main.04e29190.css.map": "/coin-dapp/static/css/main.04e29190.css.map",
+    "main.4b9cb58e.js.map": "/coin-dapp/static/js/main.4b9cb58e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04e29190.css",
+    "static/js/main.4b9cb58e.js"
+  ]
+}
