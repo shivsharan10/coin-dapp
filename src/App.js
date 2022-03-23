@@ -152,7 +152,7 @@ function App() {
   return (
     <main className="main-container">
       <h2 className="headline">
-        <span className="headline-gradient">Oblivion Finance</span>
+        <span className="headline-gradient">Oblivion Coin</span>
         <img className="inline p-3 ml-2" src="https://res.cloudinary.com/deximageapi/image/upload/v1647960734/oblivionfi_egem5n.png" alt="Meme Coin" width="90" height="60" />
       </h2>
       <section className="customer-section px-10 pt-5 pb-10">
